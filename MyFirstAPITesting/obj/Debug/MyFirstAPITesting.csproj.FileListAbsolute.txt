@@ -1,0 +1,14 @@
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\bin\Debug\RestSharp.dll
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\bin\Debug\MyFirstAPITesting.exe.config
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\bin\Debug\MyFirstAPITesting.exe
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\bin\Debug\MyFirstAPITesting.pdb
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\bin\Debug\RestSharp.Serializers.Newtonsoft.Json.dll
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\bin\Debug\System.ValueTuple.dll
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\bin\Debug\System.ValueTuple.xml
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\obj\Debug\MyFirstAPITesting.csproj.CoreCompileInputs.cache
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\obj\Debug\MyFirstAPITesting.exe
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\obj\Debug\MyFirstAPITesting.pdb
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\obj\Debug\MyFirstAPITesting.csprojResolveAssemblyReference.cache
+C:\Users\Rupesh Chaitu\source\repos\MyFirstAPITesting\MyFirstAPITesting\obj\Debug\MyFirstAPITesting.csproj.CopyComplete
