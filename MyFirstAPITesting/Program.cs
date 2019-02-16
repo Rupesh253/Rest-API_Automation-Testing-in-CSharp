@@ -201,7 +201,7 @@ namespace FirstAPITesting
 
             RestRequest request1 = new RestRequest("/maps/api/place/details/json", Method.GET);
             request1.AddParameter("placeid", "ChIJN1t_tDeuEmsRUsoyG83frY4");
-            request1.AddParameter("key", "AIzaSyD64WLxpp8JMAHrS76zXfTGRDntf_jVdeo");
+            request1.AddParameter("key", "XXXXXYYYYYYYYZZZZZZZZZZZ");
 
             #region RequestParameters
             int request1Attempts = request1.Attempts; Console.WriteLine("request1Attempts= " + request1Attempts + "\n");
@@ -302,17 +302,17 @@ namespace FirstAPITesting
             restRequest.RequestFormat = DataFormat.Json;
 
             restRequest.Resource = "/maps/api/place/add/json";
-            restRequest.AddQueryParameter("key", "AIzaSyD64WLxpp8JMAHrS76zXfTGRDntf_jVdeo");
+            restRequest.AddQueryParameter("key", "XXXXXXYYYYYYYYYYYZZZZZZZZZZZ");
 
             //or
 
             //restRequest.Resource = "/maps/api/place/add/json?key={keyValue}";
-            //restRequest.AddParameter("keyValue", "AIzaSyD64WLxpp8JMAHrS76zXfTGRDntf_jVdeo", ParameterType.UrlSegment);
+            //restRequest.AddParameter("keyValue", "XXXXXXYYYYYYYZZZZZZZZZZZZ", ParameterType.UrlSegment);
 
             //or 
 
             //restRequest.Resource = "/maps/api/place/add/json";
-            //restRequest.AddParameter("key", "AIzaSyD64WLxpp8JMAHrS76zXfTGRDntf_jVdeo");
+            //restRequest.AddParameter("key", "XXXXXXXXXYYYYYYYYYYZZZZZZZZZ");
 
             string jsonBody = "{" +
  "\"location\": {" +
@@ -366,17 +366,17 @@ namespace FirstAPITesting
             restRequest.RequestFormat = DataFormat.Json;
 
             restRequest.Resource = "/maps/api/place/delete/json";
-            restRequest.AddQueryParameter("key", "AIzaSyD64WLxpp8JMAHrS76zXfTGRDntf_jVdeo");
+            restRequest.AddQueryParameter("key", "XXXXXXYYYYYYYZZZZZZZZZZZZ");
 
             //or
 
             //restRequest.Resource = "/maps/api/place/add/json?key={keyValue}";
-            //restRequest.AddParameter("keyValue", "AIzaSyD64WLxpp8JMAHrS76zXfTGRDntf_jVdeo", ParameterType.UrlSegment);
+            //restRequest.AddParameter("keyValue", "XXXXXXXYYYYYYYYYZZZZZZZZ", ParameterType.UrlSegment);
 
             //or 
 
             //restRequest.Resource = "/maps/api/place/add/json";
-            //restRequest.AddParameter("key", "AIzaSyD64WLxpp8JMAHrS76zXfTGRDntf_jVdeo");
+            //restRequest.AddParameter("key", "XXXXXXYYYYYYZZZZZZZZZZZZZZ");
 
             string jsonBody = "{" +
   "\"place_id\": \"CdIJN2t_tDeuEmsRUsoyG83frY4\"" +
@@ -412,14 +412,14 @@ namespace FirstAPITesting
             RestClient restClient = new RestClient();
             restClient.BaseHost = "login.live.com";
             restClient.BaseUrl = new Uri("https://login.live.com");
-            restClient.Authenticator = new HttpBasicAuthenticator("rupi1053@outlook.com", "7207559840@Home");
+            restClient.Authenticator = new HttpBasicAuthenticator("XXYYZZ@outlook.com", "XXXYYYYZZZZZZ");
             restClient.Authenticator = new NtlmAuthenticator();
             restClient.Authenticator = new OAuth1Authenticator();
             restClient.Authenticator = new JwtAuthenticator("");
 
 
             RestRequest restRequest = new RestRequest("/oauth20_authorize.srf", Method.GET);
-            restRequest.AddQueryParameter("client_id", "3f994465-ed24-40ed-978a-1681aa0e62b8");
+            restRequest.AddQueryParameter("client_id", "XXXXXXXYYYYYYXXXXXXXXXXZZZZZZZZ");
             restRequest.AddParameter("scope", "wl.signin%20wl.basic");
             restRequest.AddParameter("response_type", "code");
 
@@ -448,7 +448,7 @@ namespace FirstAPITesting
         public static void SomeMethod5()
         {
             RestClient restClient = new RestClient();
-            restClient.BaseUrl = new Uri("https://rupesh1053.visualstudio.com");
+            restClient.BaseUrl = new Uri("https://XXXXXXYYYYYYYZZZZZZ.visualstudio.com");
             //restClient.BaseUrl = new Uri("https://fabrikam-fiber-inc.visualstudio.com/");
 
             RestRequest restRequest = new RestRequest();
@@ -489,7 +489,7 @@ namespace FirstAPITesting
             restRequest.Resource = "/data/2.5/weather?q={city name},{country code}";
             restRequest.AddParameter("city name", "London", ParameterType.UrlSegment);
             restRequest.AddParameter("country code", "uk", ParameterType.UrlSegment);
-            restRequest.AddHeader("x-api-key", "d571870b8fbda4cd42024736e5880326");
+            restRequest.AddHeader("x-api-key", "XXXXXXYYYYYZZZZZZZZZZZ");
 
             restRequest.Method = Method.GET;
             restRequest.RequestFormat = DataFormat.Json;
@@ -592,8 +592,8 @@ namespace FirstAPITesting
             restClient.BaseUrl = new Uri("https://www.googleapis.com");
 
 
-            RestRequest restRequest = new RestRequest("/gmail/v1/users/rupesharyan250@gmail.com/profile", Method.GET);
-            restRequest.AddQueryParameter("access_token", "Jkqy2EUMlv457xh9Zcmy5EcX");
+            RestRequest restRequest = new RestRequest("/gmail/v1/users/XXXXXXYYYYYYYZZZZZZZ@gmail.com/profile", Method.GET);
+            restRequest.AddQueryParameter("access_token", "XXXXXYYYYYZZZZZZZZZ");
             restRequest.RequestFormat = DataFormat.Json;
 
             IRestResponse restResponse = restClient.Execute(restRequest);
@@ -623,10 +623,10 @@ namespace FirstAPITesting
 
         public static void SomeMethod8()
         {
-            string consumerKey = "8b3fU98QGFlQJ4rYEhM4tKCpq";
-            string consumerSecret = "5dfCilNb9XMRuElOLISHP7eMF5xuzhUmux3eRpIMke9aJies5k";
-            string accessToken = "965092706627280896-abDY7PFPwkbxZdG3fooze6uCuXwViAv";
-            string accessTokenSecret = "bJFeU140eCdfJKVNVlc9GhYLd6eqGXZhBGtpL4jo8DWvk";
+            string consumerKey = "XXXXXXXXXXXXXXXXYYYYYYYYYYYY";
+            string consumerSecret = "XXXXXXXXXYYYYYYYYYYYYYZZZZZZZZZZZ";
+            string accessToken = "FFFFFFFFFFFFTTTTTTTTTTTTRRRRRRRRRRRRRRRRRRRDDDDDDDDD";
+            string accessTokenSecret = "EEEEEEEEEEEEERRRRRRRRRRRTTTTTTTTTTYYYYYYYYUUUUIIII";
 
 
             RestClient restClient = new RestClient();
@@ -637,7 +637,7 @@ namespace FirstAPITesting
                 OAuth1Authenticator.ForRequestToken(consumerKey, consumerSecret);
                 //OAuth1Authenticator.ForRequestToken(consumerKey, consumerSecret);
                 //OAuth1Authenticator.ForProtectedResource(consumerKey, consumerSecret, accessToken, accessTokenSecret);
-                //OAuth1Authenticator.ForClientAuthentication(consumerKey, consumerSecret,"rupesharyan253@gmail.com","Rupi@0253");
+                //OAuth1Authenticator.ForClientAuthentication(consumerKey, consumerSecret,"XXXXXYYYYYYYY","XXXXYYYYZZZZ");
 
             }
 
